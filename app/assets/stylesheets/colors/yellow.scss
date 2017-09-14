@@ -1,0 +1,243 @@
+$color_1: #d39f00;
+$color_2: #e9b000;
+$color_3: #ffd963;
+$background_color_1: #d39f00;
+$background_color_2: #e9b000;
+
+/*------------------------------------------------------------------
+[yellow Stylesheet]
+
+Template Color:	yellow;
+
+# [Color codes]
+
+# Regular yellow (links, headings span, footer names): #d39f00
+# Darker yellow (countdown bg, span titles) #e9b000
+# Light yellow (links selected) #ffd963
+-------------------------------------------------------------------*/
+a {
+    color: $color_1;
+}
+blockquote {
+    color: $color_1;
+    border-left: 3px #d39f00 solid;
+}
+span.love_quote {
+    color: $color_1;
+}
+h1 {
+span {
+    color: $color_1;
+}
+}
+h2 {
+span {
+    color: $color_1;
+}
+}
+h3 {
+span {
+    color: $color_1;
+}
+}
+h4 {
+span {
+    color: $color_1;
+}
+}
+h5 {
+span {
+    color: $color_1;
+}
+}
+h6 {
+span {
+    color: $color_1;
+}
+}
+span.post_date {
+    color: $color_1;
+}
+.latest_posts {
+.left13 {
+&:hover {
+.post_info {
+h3 {
+a {
+    color: $color_1;
+}
+}
+}
+}
+}
+.left13_last {
+&:hover {
+.post_info {
+h3 {
+a {
+    color: $color_1;
+}
+}
+}
+}
+}
+}
+.checkbox_container {
+label {
+span {
+    color: $color_1;
+}
+}
+}
+.footer_names {
+    color: $color_1;
+}
+a.post_read_more {
+    border: 1px #d39f00 solid;
+}
+a.view_all {
+    border: 1px #d39f00 solid;
+}
+.wp-pagenavi {
+a {
+    border: 1px #d39f00 solid;
+&:hover {
+     background-color: $background_color_1;
+ }
+}
+span.current {
+    border: 1px #d39f00 solid;
+}
+}
+.view_all_carousel {
+a {
+    border: 1px #d39f00 solid;
+}
+}
+.back {
+    color: $color_2;
+    border: 1px solid #e9b000;
+}
+.about_topsign {
+    color: $color_2;
+}
+span.names_titles {
+    color: $color_2;
+}
+span.subtitle {
+    color: $color_2;
+}
+.contact_email {
+a {
+    border: 1px solid #e9b000;
+}
+}
+.no-touch {
+.back {
+&:hover {
+     background-color: $background_color_2;
+ }
+}
+}
+.countdown_container {
+    background-color: $background_color_2;
+}
+a.thumb_read_more {
+    background-color: $background_color_2;
+}
+.full_width_carousel {
+.left14 {
+h3 {
+    background-color: $background_color_2;
+}
+}
+.left14_last {
+h3 {
+    background-color: $background_color_2;
+}
+}
+}
+input.form_submit_contact {
+    background-color: $background_color_2;
+}
+input[type="checkbox"] {
+&+label {
+&:before {
+     background-color: $background_color_2;
+ }
+}
+&:checked {
+&+label {
+&:before {
+     background-color: $background_color_2;
+ }
+}
+}
+}
+.tp-title {
+span {
+&:nth-child(2) {
+     color: $color_3;
+ }
+}
+&:hover {
+     color: $color_3;
+ }
+}
+.page_header_title {
+a {
+    color: $color_3;
+}
+}
+.title {
+span {
+    color: $color_3;
+}
+}
+.title_under {
+    color: $color_3;
+}
+ul#main_menu {
+li {
+a.selected {
+    color: $color_3;
+    background: image-url('template/menu_bullet_yellow.png') no-repeat left;
+}
+a {
+&:hover {
+     color: $color_3;
+     background: image-url('template/menu_bullet_yellow.png') no-repeat left;
+ }
+}
+}
+}
+span.carousel_titles {
+    color: $color_3;
+}
+.footer_menu {
+li {
+    background: image-url('template/menu_bullet_yellow.png') no-repeat left;
+}
+}
+@media screen and (max-width: 680px) {
+    nav.menu {
+        background-color: $background_color_2;
+    }
+    ul#main_menu {
+    li {
+    a.selected {
+        background: none;
+    }
+    a {
+&:hover {
+     background: none;
+ }
+}
+}
+}
+.footer_menu {
+li {
+    background: none;
+}
+}
+}
