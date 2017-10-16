@@ -8,9 +8,31 @@
   </div>
 
   <div class="page_content">
-    <div class="full_width_centered">
-      <div class="left12_first">
-        <h3>Log in</h3>
+    <div class="full_width_box">
+      <% if flash[:alert] %>
+        <div class="alert alert-danger fade in">
+          <button class="close" data-dismiss="alert">×</button>
+          <%= flash[:alert] %>
+        </div>
+      <% end %>
+
+      <h3>LOG IN</h3>
+
+      <p>Dear guests, by creating an account you will help us coordinate our wedding. We will use the email address
+        associated with your Facebook account to send you updates in the future (eg.: When the meal selection will be
+        available).
+      </p>
+
+      <%= link_to user_facebook_omniauth_authorize_path, class: "'btn btn-facebook btn btn-lg btn-block" do %>
+        <span class="fa fa-facebook"></span> Sign in with Facebook
+      <% end %>
+
+      <br><br>
+      <a href="#email_login" class="btn btn-default btn-expand" data-toggle="collapse">Click here if you want to use an
+        email
+        instead of Facebook.</a>
+
+      <div id="email_login" class="collapse div-expand">
 
         <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
           <div class="field">
@@ -43,10 +65,3 @@
   <%= render 'layouts/footer' %>
 
 </div>
-
-<
-<script type="text/javascript" charset="utf-8">
-  function sendLogin() {
-      console.write("TST")
-  }
-</script>

@@ -1,11 +1,13 @@
-/*@import "*";
-@import "colors/yellow";
-
+//Vendor files
 @import "carousel";
-@import "reset";
 @import "stapel";
 @import "swipebox";
+@import "lightbox";
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome";
-@import "bootstrap-social";*/
+@import "bootstrap-social";
+
+
+@import "*";
+@import "**/*";

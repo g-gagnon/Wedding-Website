@@ -25,6 +25,17 @@ function Countdown() {
 		timeSeparator: ':', // Separator for time periods
 		isRTL: false // True for right-to-left languages, false for left-to-right
 	};
+	this.regional['fr'] = {
+        labels: ['Années','Mois','Semaines','Jours','Heures','Minutes','Secondes'],
+        labels1: ['Année','Mois','Semaine','Jour','Heure','Minute','Seconde'],
+        compactLabels: ['a','m','s','j'],
+        whichLabels: function(amount) {
+            return (amount > 1 ? 0 : 1);
+        },
+        digits: ['0','1','2','3','4','5','6','7','8','9'],
+        timeSeparator: ':',
+        isRTL: false
+    };
 	this._defaults = {
 		until: null, // new Date(year, mth - 1, day, hr, min, sec) - date/time to count down to
 			// or numeric for seconds offset, or string for unit offset(s):

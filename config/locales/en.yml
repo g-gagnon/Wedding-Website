@@ -21,3 +21,39 @@
 
 en:
   hello: "Hello world"
+  title:
+    under: "SAVE THE DATE"
+    date: "09.06.2018"
+    front: "WE ARE GETTING MARRIED"
+  countdown:
+    title: "Countdown to Wedding Ceremony"
+    rsvp: "RSVP"
+  men_maid:
+    more: "VIEW ALL BRIDESMAIDS AND GROOMSMEN\'S"
+  blog:
+    title: BLOG POSTS
+    proposal:
+      date: "19 AUGUST 2017"
+      title: "THE PROPOSAL"
+    wedding_organisation:
+      date: "1 NOVEMBER 2017"
+      title: "THE WEDDING ORGANISATION"
+    honeymoon:
+      date: "1 NOVEMBER 2017"
+      title: "THE HONEYMOON PLAN"
+    more: "VIEW ALL POSTS"
+  hotel:
+    title: "HOTELS ACCOMMODATIONS"
+    subtitle: "YOU BETTER PAY ATTENTION"
+    content: "We have secured hotel discount in Quebec city. Please take a look at this page ASAP. The weekend of our wedding is the same weekend as the G7 summit and there is gonna be a shortage of hotels."
+  read_more: "READ MORE"
+  location:
+    title: "WEDDING LOCATION"
+    subtitle: "QUEBEC CITY - ESPACE ST-GRÉGOIRE"
+    content: "Our Quebec City wedding will be held at a beautiful historic church just seconds away from the Montmorency Falls. It has recently been converted into a reception hall. Both the ceremony and the reception will be there."
+  gift_registry:
+    title: "GIFT REGISTRY"
+    subtitle: "AT YOUR OWN DISCRETION"
+    content: "We curated a couple of online gift registries to help you find a suitable and unique gift. Cash gifts are also an appreciated alternative."
+  venue:
+    name: "ESPACE ST-GRÉGOIRE"
