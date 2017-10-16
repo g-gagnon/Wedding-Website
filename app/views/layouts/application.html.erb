@@ -7,23 +7,13 @@
     <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1" />
     <meta name="author" content="Gabriel Gagnon" />
     <meta name="keywords" content="wedding, marriage, gabriel, sophie, 2018, quebec" />
-    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= stylesheet_link_tag 'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
     <link href='http://fonts.googleapis.com/css?family=Clicker+Script' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css'>
   </head>
 
   <body>
-  <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=1647490775283341";
-      fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
     <%= yield %>
   </body>
 </html>

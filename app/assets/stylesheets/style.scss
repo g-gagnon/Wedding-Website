@@ -1,26 +1,4 @@
-$color_1: #6e6a5f;
-$color_2: #5d594d;
-$color_3: #FFFFFF;
-$color_4: #434343;
-$color_5: #888;
-$color_6: #fff;
-$color_7: #f6f5ec;
-$color_8: #e8a900;
-$color_9: red;
-$color_10: #000;
-$color_11: #b5af47;
-$font_family_1: 'Open Sans', sans-serif;
-$font_family_2: 'Clicker Script', cursive;
-$font_family_3: Arial, Helvetica, sans-serif;
-$background_color_1: #e5e5e5;
-$background_color_2: rgba(255,255,255,0.5);
-$background_color_3: #000000;
-$background_color_4: #5d594d;
-$background_color_5: #f6f5ec;
-$background_color_6: #f7f6f2;
-$background_color_7: #ffffff;
-$background_color_8: #2d2e21;
-$background_color_9: #c9d170;
+@import "variable";
 
 /*------------------------------------------------------------------
 [Main Stylesheet]
@@ -67,7 +45,7 @@ Template:	Wedding Bells HTML,CSS Template
 /*===============================================*/
 /* 1. RESET		 						 */
 /*===============================================*/
-@import "reset";
+//@import "reset";
 /*===============================================*/
 /* 2. GENERAL		 						 */
 /*===============================================*/
@@ -568,7 +546,8 @@ nav.menu {
     padding: 0;
     text-align: center;
     width: 100%;
-    background: image-url('template/menu_border_bottom.png') no-repeat center bottom;
+    background: image-url('template/trans_black.png') repeat;
+    //background: image-url('template/menu_border_bottom.png') no-repeat center bottom;
     height: 85px;
     position: absolute;
     top: 0px;
@@ -855,7 +834,7 @@ a.thumb_read_more {
  }
 }
 .carousel_container {
-    background: image-url('template/slider/slide2.jpg') no-repeat center center;
+    background: image-url('18-201_SophieGabriel_100004') no-repeat center center;
     width: 100%;
 }
 .carousel_container_image {
@@ -1210,11 +1189,17 @@ span.date {
 .general_header {
     background: image-url('template/header.jpg') no-repeat center center;
 }
+
+.venue_header_photo {
+  background: image-url('venue_header') no-repeat center center;
+  height: 600px;
+  background-size: cover;
+}
+
 .contact_header {
     background: image-url('template/header.jpg') no-repeat center center;
 }
 .page_header_trans {
-    background: image-url('template/trans_black.png') repeat;
     width: 100%;
     padding: 160px 0 80px 0;
 }
@@ -1374,7 +1359,7 @@ label {
     cursor: pointer;
 }
 }
-input[type="checkbox"] {
+input.fancy_checkbox[type="checkbox"] {
     display: none;
 &+label {
 &:before {
