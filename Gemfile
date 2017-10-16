@@ -35,6 +35,7 @@ gem 'dotenv-rails'
 
 # Use devise for the user management
 gem 'devise'
+gem 'bcrypt', platforms: :ruby
 
 # Use omniauth for the Facebook login
 gem 'omniauth-facebook'
