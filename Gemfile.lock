@@ -38,6 +38,8 @@ GEM
       i18n (~> 0.7)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
+    addressable (2.5.2)
+      public_suffix (>= 2.0.2, < 4.0)
     arel (7.1.4)
     autoprefixer-rails (7.1.4)
       execjs
@@ -67,6 +69,10 @@ GEM
     dotenv-rails (2.2.1)
       dotenv (= 2.2.1)
       railties (>= 3.2, < 5.2)
+    dragonfly (1.1.3)
+      addressable (~> 2.3)
+      multi_json (~> 1.0)
+      rack (>= 1.3)
     erubis (2.7.0)
     execjs (2.7.0)
     faraday (0.12.2)
@@ -118,6 +124,7 @@ GEM
       omniauth (~> 1.2)
     orm_adapter (0.5.0)
     pg (0.21.0-x86-mingw32)
+    public_suffix (3.0.0)
     puma (3.10.0)
     rack (2.0.3)
     rack-test (0.6.3)
@@ -201,6 +208,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise
   dotenv-rails
+  dragonfly
   font-awesome-rails
   jbuilder (~> 2.5)
   jquery-rails
