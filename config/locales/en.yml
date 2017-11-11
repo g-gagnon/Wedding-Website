@@ -1,59 +1,103 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
+---
 en:
-  hello: "Hello world"
-  title:
-    under: "SAVE THE DATE"
-    date: "09.06.2018"
-    front: "WE ARE GETTING MARRIED"
-  countdown:
-    title: "Countdown to Wedding Ceremony"
-    rsvp: "RSVP"
-  men_maid:
-    more: "VIEW ALL BRIDESMAIDS AND GROOMSMEN\'S"
+  activerecord:
+    attributes:
+      rsvp:
+        event_all: Wedding Ceremony and Reception
+        event_ceremony: Wedding Ceremony Only
+      rsvp_guest:
+        name: Name
+        email: Email
+      rsvp_guests:
+        name: Guest name
   blog:
-    title: BLOG POSTS
-    proposal:
-      date: "19 AUGUST 2017"
-      title: "THE PROPOSAL"
-    wedding_organisation:
-      date: "1 NOVEMBER 2017"
-      title: "THE WEDDING ORGANISATION"
     honeymoon:
-      date: "1 NOVEMBER 2017"
-      title: "THE HONEYMOON PLAN"
-    more: "VIEW ALL POSTS"
-  hotel:
-    title: "HOTELS ACCOMMODATIONS"
-    subtitle: "YOU BETTER PAY ATTENTION"
-    content: "We have secured hotel discount in Quebec city. Please take a look at this page ASAP. The weekend of our wedding is the same weekend as the G7 summit and there is gonna be a shortage of hotels."
-  read_more: "READ MORE"
-  location:
-    title: "WEDDING LOCATION"
-    subtitle: "QUEBEC CITY - ESPACE ST-GRÉGOIRE"
-    content: "Our Quebec City wedding will be held at a beautiful historic church just seconds away from the Montmorency Falls. It has recently been converted into a reception hall. Both the ceremony and the reception will be there."
+      date: 1 NOVEMBER 2017
+      title: THE HONEYMOON PLAN
+    more: VIEW ALL POSTS
+    proposal:
+      date: 19 AUGUST 2017
+      title: THE PROPOSAL
+    title: BLOG POSTS
+    wedding_organisation:
+      date: 1 NOVEMBER 2017
+      title: THE WEDDING ORGANISATION
+  countdown:
+    rsvp: RSVP
+    title: Countdown to Wedding Ceremony
   gift_registry:
-    title: "GIFT REGISTRY"
-    subtitle: "AT YOUR OWN DISCRETION"
-    content: "We curated a couple of online gift registries to help you find a suitable and unique gift. Cash gifts are also an appreciated alternative."
+    content: We curated a couple of online gift registries to help you find a suitable and unique gift. Cash gifts are also an appreciated alternative.
+    subtitle: AT YOUR OWN DISCRETION
+    title: GIFT REGISTRY
+  hotel:
+    content: The weekend of our weddding happens at the same time as the G7 event, held nearby. Thus, hotels are harder to find. We recommand you do not wait to find your accomodation. Airbnb is also a strong option.
+    subtitle: YOU BETTER PAY ATTENTION
+    title: HOTELS ACCOMMODATIONS
+  index:
+    bride:
+      content: 'Love is friendship that has caught fire. It is quiet understanding, mutual confidence, sharing and forgiving. It is loyalty through good and bad times. It settles for less than perfection and makes allowances for human weaknesses.'
+      quote: Sometimes the heart sees what is invisible to the eye.
+      subtitle: MORE ABOUT SOPHIE
+      title: THE BRIDE
+    groom:
+      content: 'I believe that imagination is stronger than knowledge. That myth is more potent than history. That dreams are more powerful than facts. That hope always triumphs over experience. That laughter is the only cure for grief. And I believe that love is stronger than death.'
+      quote: Where there is love there is life.
+      subtitle: MORE ABOUT GABRIEL
+      title: THE GROOM
+    groomlist:
+      bestman: BEST MAN
+      maidofhonor: MAID OF HONOR
+      more: VIEW ALL BRIDESMAIDS AND GROOMSMEN'S
+      subtitle_html: BEST MAN &amp; MAID OF HONOR
+      title: OUR BRIDEMAIDS AND GROOMSMEN'S
+  location:
+    content: Our Quebec City wedding will be held at a beautiful historic church just seconds away from the Montmorency Falls. It has recently been converted into a reception hall. Both the ceremony and the reception will be there.
+    subtitle: QUEBEC CITY - ESPACE ST-GRÉGOIRE
+    title: WEDDING LOCATION
+  read_more: READ MORE
+  title:
+    date: '09.06.2018'
+    front: WE ARE GETTING MARRIED
+    under: SAVE THE DATE
   venue:
-    name: "ESPACE ST-GRÉGOIRE"
+    name: ESPACE ST-GRÉGOIRE
+    content:
+      parking: "Parking is available right in front of the venue, Access is easy by highway, but we cannot guarantee there wont be any traffic with the G7 Summit happening not too far."
+      info: "Situated neart downtown Quebec city, this historic church transformed into a reception hall will blow you away with its interior design. Perfect to host a big reception, it will cover all your needs for this unforgivable day."
+      address_html: "<b>Espace Saint-Grégoire Address:</b><br><br>          Espace Saint-Grégoire<br>         2, rue Monseigneur-Marc-Leclerc<br>         Québec (Québec) G1C 2C4"
+      website: "Espace St-Grégoire website"
+  menu:
+    home: "HOME"
+    wedding: "THE WEDDING"
+    venue: "THE VENUE"
+    blog: "BLOG"
+    photos: "PHOTOS"
+    rsvp: "RSVP"
+    contact: "GET IN TOUCH"
+    logout: "LOG OUT"
+    signin: "SIGN IN"
+    english: "ENGLISH"
+    francais: "FRANÇAIS"
+    top: "TOP"
+  rsvp:
+    save_success: "Registration updated!"
+    event_title: "SELECT THE EVENTS(S) YOU WILL BE ATTENDING:"
+    meal_title: "PLEASE SELECT A MEAL CHOICE"
+    menu_info: "The menu will be available in the future. A message will be sent to you once the selection will be available. You can still leave us some notes about allergies and other constraints to help us plan accordingly."
+    guest_title_html: "GUEST DETAILS &amp; COMMENTS"
+    guest_info: "Leave fields blank if none"
+    add_guest: "Add guest"
+    send_rsvp: "SEND RSVP"
+    update_rsvp: "UPDATE RSVP"
+    remove_guest: "Remove guest"
+  code:
+    title: "REGISTRATION CODE"
+    subtitle: "Enter your registration code"
+    content: "You should have received a code to register for the wedding. If you lost it, please contact us."
+    submit_button: "Register"
+  photos:
+    folder:
+      engagement_shoot: Engagement shoot
+      venue: venue
+    back: "BACK"
+    title: "OUR PHOTOS"

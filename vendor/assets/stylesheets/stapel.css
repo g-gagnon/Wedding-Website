@@ -8,6 +8,8 @@
 .tp-grid li {
 	position: absolute;
 	width:300px;
+	height:207px;
+	text-align: center;
 	cursor: pointer;
 	border: 10px solid #fff;
 	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
@@ -27,13 +29,17 @@
 }
 
 .tp-grid li a {
-	display: block;
+	display: inline;
 	outline: none;
 }
 
 .tp-grid li img {
-	display: block;
+	display: inline;
 	border: none;
+	width: auto;
+	height: auto;
+	max-height: 100%;
+	max-width: 100%;
 }
 
 .tp-info{
