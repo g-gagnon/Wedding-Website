@@ -1,0 +1,15 @@
+<div class="form_section">
+  <div class="form_row left13_first">
+    <%= f.label :name %>
+    <%= f.text_field :name, class: 'form_input required', id: 'rsvpname' %>
+  </div>
+  <div class="form_row left13">
+    <%= f.label :email %>
+    <%= f.email_field :email, class: 'form_input email', id: 'rsvpemail' %>
+  </div>
+  <div class="form_row_full">
+    <%= f.label :note %>
+    <%= f.text_area :note, class: 'form_textarea_full', id: 'rsvpcomments' %>
+  </div>
+  <%= link_to_remove_association(t('rsvp.remove_guest'), f, {wrapper_class: 'form_section'}) %>
+</div>

@@ -1,3 +1,33 @@
+<div class="home_bottom">
+  <div class="full_width_centered">
+    <div class="left13">
+      <div class="bottom_icon"><%= image_tag "template/icon_vacation.png" %></div>
+      <h2><%= t('hotel.title') %></h2>
+      <span class="subtitle"><%= t('hotel.subtitle') %></span>
+      <p><%= t('hotel.content') %></p>
+      <br>
+      <a href="/page" class="post_read_more"><%= t('read_more') %></a>
+    </div>
+    <div class="left13">
+      <div class="bottom_icon"><%= image_tag "template/icon_location.png" %></div>
+      <h2><%= t('location.title') %></h2>
+      <span class="subtitle"><%= t('location.subtitle') %></span>
+      <p><%= t('location.content') %></p>
+      <a href="/venue" class="post_read_more"><%= t('read_more') %></a>
+    </div>
+    <div class="left13_last">
+      <div class="bottom_icon"><%= image_tag "template/icon_gifts.png" %></div>
+      <h2><%= t('gift_registry.title') %></h2>
+      <span class="subtitle"><%= t('gift_registry.subtitle') %></span>
+      <p><%= t('gift_registry.content') %></p>
+      <br><br>
+      <a href="/page" class="post_read_more"><%= t('read_more') %></a>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+</div>
+
 <div class="footer">
   <div class="full_width_centered">
     <div class="footer_sign">
@@ -16,12 +46,12 @@
     </div>
     <nav class="footer_menu">
       <ul>
-        <li><a href="/">HOME</a></li>
-        <li><a href="/page">THE WEDDING</a></li>
-        <li><a href="/rsvp" class="selected">RSVP</a></li>
-        <li><a href="/contact">GET IN TOUCH</a></li>
+        <li><%= nav_link t('menu.home'), root_path %></li>
+        <li><%= nav_link t('menu.wedding'), page_path %></li>
+        <li><%= nav_link t('menu.rsvp'), rsvp_path %></li>
+        <!--li><%= nav_link t('menu.contact'), contact_path %></li-->
         <li>
-          <a onClick="jQuery('html, body').animate( { scrollTop: 0 }, 'slow' );" href="javascript:void(0);" class="gotop" title="Go on top">TOP</a>
+          <a onClick="jQuery('html, body').animate( { scrollTop: 0 }, 'slow' );" href="javascript:void(0);" class="gotop"><%= t('menu.top') %></a>
         </li>
       </ul>
     </nav>
