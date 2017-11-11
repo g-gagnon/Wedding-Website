@@ -1,0 +1,61 @@
+<%= form_for @rsvp, url: rsvp_path do |f| %>
+  <% if @rsvp.errors.present? %>
+    <div class="alert alert-danger fade in">
+      <button class="close" data-dismiss="alert">×</button>
+      <ul>
+        <% @rsvp.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% elsif flash[:success] %>
+    <div class="alert alert-success fade in">
+      <button class="close" data-dismiss="alert">×</button>
+      <%= flash[:success] %>
+    </div>
+  <% end %>
+
+  <div class="form_section">
+    <h3 class="form_subtitle"><%= t('rsvp.event_title') %></h3>
+
+    <div class="checkbox_container left13_first">
+      <%= f.radio_button :event, "All", checked: true %>
+      <%= f.label :event_all %>
+    </div>
+    <div class="checkbox_container left13">
+      <%= f.radio_button :event, "Ceremony" %>
+      <%= f.label :event_ceremony %>
+    </div>
+  </div>
+
+  <h3 class="form_subtitle"><%= t('rsvp.meal_title') %></h3>
+  <div class="form_section">
+    <div class="form_row">
+      <%= t('rsvp.menu_info') %>
+    </div>
+    <div class="form_row_full">
+      <%= f.label :note, 'MENU NOTES' %>
+      <%= f.text_area(:note, class: 'form_textarea_full') %>
+    </div>
+  </div>
+  <% unless current_user.user_config.solo? %>
+    <h3 class="form_subtitle"><%= t('rsvp.guest_title_html') %></h3>
+    <div class="center-block"><%= t('rsvp.guest_info') %></div>
+
+    <div id='rsvp_guests'>
+    <%= f.fields_for :rsvp_guests do |rsvp_guests| %>
+      <% render 'rsvp_guest_fields', f: rsvp_guests %>
+    <% end %>
+    </div>
+
+    <div class="links">
+      <%= link_to_add_association t('rsvp.add_guest'), f, :rsvp_guests, class: "view_all" if current_user.user_config.family? %>
+    </div>
+  <% end %>
+
+  <div class="form_row">
+    <% submit_text =  @rsvp.new_record? ? t('rsvp.send_rsvp') : t('rsvp.update_rsvp') %>
+    <%= f.submit submit_text, class: 'form_submit_contact', id: 'submit'%>
+    <label id="loader" style="display:none;"><%= image_tag "template/loader.gif" %> alt= "Loading..."id="LoadingGraphic"></label>
+  </div>
+<% end %>

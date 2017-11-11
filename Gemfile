@@ -47,6 +47,9 @@ gem 'bootstrap-sass'
 # Use font-awesome for nicer fonts
 gem 'font-awesome-rails'
 
+# Use for nested form
+gem 'cocoon'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
@@ -55,6 +58,12 @@ end
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
+
+  # Translation utility
+  gem 'i18n-tasks', '~> 0.9.18'
+
+  # I18n lookup in log
+  #gem 'i18n-debug'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
