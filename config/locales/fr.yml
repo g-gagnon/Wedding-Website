@@ -1,2 +1,91 @@
+---
 fr:
-  hello: "Hello world"
+  activerecord:
+    attributes:
+      rsvp:
+        event_all: Cérémonie de mariage et réception
+        event_ceremony: Cérémonie de mariage seulement
+      rsvp_guest:
+        email: Courriel
+        name: Nom
+      rsvp_guests:
+        name: Nom de l'invité
+  blog:
+    honeymoon:
+      date: 1er NOVEMBRE 2017
+      title: LE PLAN LUNE DE MIEL
+    more: VOIR TOUS LES POSTES
+    proposal:
+      date: 19 AOÛT 2017
+      title: LA PROPOSITION
+    title: POSTES DE BLOGS
+    wedding_organisation:
+      date: 1er NOVEMBRE 2017
+      title: L'ORGANISATION DU MARIAGE
+  countdown:
+    rsvp: RSVP
+    title: Compte à rebours pour la cérémonie de mariage
+  gift_registry:
+    content: Nous avons organisé quelques registres de cadeaux en ligne pour vous aider à trouver un cadeau approprié et unique. Les cadeaux en espèces sont aussi une alternative appréciée.
+    subtitle: À VOTRE PROPRE DISCRÉTION
+    title: REGISTRE DE CADEAUX
+  hotel:
+    content: La fin de semaine de notre marriage tombe en même temps que la rencontre du G7 dans Charlevoix. Les hôtels sont alors plus difficiles à réserver, donc nous vous conseillons de ne pas attendre pour choisir vos accomodations. Airbnb est aussi une bonne option.
+    subtitle: Mieux vaut faire attention
+    title: HÉBERGEMENT D'HÔTELS
+  index:
+    bride:
+      content: 'L''amour est l''amitié qui a pris feu. C''est la compréhension silencieuse, la confiance mutuelle, le partage et le pardon. C''est la loyauté à travers les bons et les mauvais moments. Il se contente de moins que la perfection et fait des provisions pour les faiblesses humaines.'
+      quote: Parfois, le cœur voit ce qui est invisible à l'œil.
+      subtitle: PLUS SUR SOPHIE
+      title: LA MARIÉE
+    groom:
+      content: 'Je crois que l''imagination est plus forte que la connaissance. Ce mythe est plus puissant que l''histoire. Ce rêve est plus puissant que les faits. Cette espérance triomphe toujours de l''expérience. Ce rire est le seul remède au chagrin. Et je crois que l''amour est plus fort que la mort.'
+      quote: Où il y a de l'amour il y a de la vie.
+      subtitle: PLUS SUR GABRIEL
+      title: LE MARIÉ
+    groomlist:
+      bestman: HOMME D'HONNEUR
+      maidofhonor: DEMOISELLE D'HONNEUR
+      more: VOIR TOUS LES BRIDESMAIDS ET GROOMSMEN'S
+      subtitle_html: HOMME ET DEMOISELLE D'HONNEUR
+      title: NOS BRIDEMAIDS ET GROOMSMEN
+  location:
+    content: Notre mariage à Québec aura lieu dans une magnifique église historique à quelques secondes des chutes Montmorency. Elle a été récemment transformé en salle de réception. Tant la cérémonie que la réception seront là.
+    subtitle: VILLE DE QUÉBEC - ESPACE ST-GRÉGOIRE
+    title: EMPLACEMENT DE MARIAGE
+  menu:
+    blog: BLOG
+    contact: ENTRER EN CONTACT
+    english: ANGLAIS
+    francais: ENGLISH
+    home: MAISON
+    logout: SE DÉCONNECTER
+    photos: PHOTOS
+    rsvp: RSVP
+    signin: SE CONNECTER
+    top: HAUT
+    venue: LE LIEU
+    wedding: LE MARIAGE
+  read_more: LIRE LA SUITE
+  rsvp:
+    add_guest: Ajouter un invité
+    event_title: 'CHOISISSEZ LES ÉVÉNEMENTS(S) AUXQUELS VOUS PARTICIPEREZ:'
+    guest_info: Laissez les champs vide si aucun
+    guest_title_html: DÉTAILS ET COMMENTAIRES
+    meal_title: VEUILLEZ CHOISIR UN CHOIX DE REPAS
+    menu_info: Le menu sera disponible dans le futur. Un message vous sera envoyé dès que la sélection sera disponible. Vous pouvez toujours nous laisser quelques notes sur les allergies et d'autres contraintes pour nous aider à planifier en conséquence.
+    remove_guest: Supprimer un invité
+    save_success: Inscription mise à jour!
+    send_rsvp: Envoyer RSVP
+    update_rsvp: MISE À JOUR RSVP
+  title:
+    date: '09.06.2018'
+    front: NOUS ALLONS NOUS MARIER
+    under: RÉSERVEZ CETTE DATE
+  venue:
+    name: ESPACE ST-GRÉGOIRE
+  photos:
+    folder:
+      engagement_shoot: Engagement
+      venue: Espace St-Grégoire
