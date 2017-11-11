@@ -2,121 +2,56 @@
 
     <%= render 'layouts/menu' %>
 
-    <div class="page_header_photo general_header">
-      <div class="page_header_trans">
-               <div class="page_header_title">
-               <h1>OUR BLOG</h1>
-<p>Love is friendship that has caught fire. It is quiet understanding, sharing and forgiving. <br />
-It is loyalty through good and bad times. It settles for less than perfection<br /> and makes allowances for human weaknesses.</p>
-               </div>
-       </div>
-   </div>
+  <div class="blog_header_photo">
+    <div class="page_header_trans">
+      <div class="page_header_title">
+
+      </div>
+    </div>
+  </div>
 
     <div class="blog_content">
      <div class="full_width_centered">
-     
+       <h2>OUR BLOG</h2>
+
        <div class="latest_posts">
-       
-            <div class="left13">
-              <div class="latest_post">
-                <div class="post_info">
-                   <span class="post_date">20 JUNE 2015</span>
-                   <h3><a href="/blog-single">THE PROPOSAL WAS AMAZING</a></h3>
-                   <a href="/blog-single" class="post_read_more">READ MORE</a>
-                </div> 
-                <%= image_tag "template/post_thumb1.jpg" %>
-              </div>
-            </div>
-            <div class="left13">
-              <div class="latest_post">
-                <div class="post_info">
-                   <span class="post_date">18 MAY 2015</span>
-                   <h3><a href="/blog-single">OUR ROMANTIC HONEYMOON IN VENICE</a></h3>
-                   <a href="/blog-single" class="post_read_more">READ MORE</a>
-                </div> 
-                <%= image_tag "template/post_thumb2.jpg" %>
-              </div>
-            </div>
-            <div class="left13_last">
-              <div class="latest_post">
-                <div class="post_info">
-                   <span class="post_date">31 MARCH 2015</span>
-                   <h3><a href="/blog-single">LOVE IS COMPOSED OF A SINGLE SOUL</a></h3>
-                   <a href="/blog-single" class="post_read_more">READ MORE</a>
-                </div> 
-                <%= image_tag "template/post_thumb3.jpg" %>
-              </div>
-            </div>
-            
-            <div class="left13">
-              <div class="latest_post">
-                <div class="post_info">
-                   <span class="post_date">20 JUNE 2015</span>
-                   <h3><a href="/blog-single">THE PROPOSAL WAS AMAZING</a></h3>
-                   <a href="/blog-single" class="post_read_more">READ MORE</a>
-                </div> 
-                <%= image_tag "template/post_thumb4.jpg" %>
-              </div>
-            </div>
-            <div class="left13">
-              <div class="latest_post">
-                <div class="post_info">
-                   <span class="post_date">18 MAY 2015</span>
-                   <h3><a href="/blog-single">OUR ROMANTIC HONEYMOON IN VENICE</a></h3>
-                   <a href="/blog-single" class="post_read_more">READ MORE</a>
-                </div> 
-                <%= image_tag "template/post_thumb5.jpg" %>
-              </div>
-            </div>
-            <div class="left13_last">
-              <div class="latest_post">
-                <div class="post_info">
-                   <span class="post_date">31 MARCH 2015</span>
-                   <h3><a href="/blog-single">LOVE IS COMPOSED OF A SINGLE SOUL</a></h3>
-                   <a href="/blog-single" class="post_read_more">READ MORE</a>
-                </div> 
-                <%= image_tag "template/post_thumb6.jpg" %>
-              </div>
-            </div>
-            
-            <div class="wp-pagenavi">
-            <span class="pages">Page 1 of 2</span><span class="current">1</span><a class="page larger" href="#">2</a><a class="nextpostslink" rel="next" href="#">»</a>
-            </div>
-            
-            <div class="clear"></div>
-      </div>
+         <h2><%= t('blog.title') %></h2>
+         <div class="left13">
+           <div class="latest_post">
+             <div class="post_info">
+               <span class="post_date"><%= t('blog.proposal.date') %></span>
+               <h3><a href="/blog-single"><%= t('blog.proposal.title') %></a></h3>
+               <a href="/blog-single" class="post_read_more"><%= t('read_more') %></a>
+             </div>
+             <%= image_tag "template/post_thumb1.jpg" %>
+           </div>
+         </div>
+         <div class="left13">
+           <div class="latest_post">
+             <div class="post_info">
+               <span class="post_date"><%= t('blog.wedding_organisation.date') %></span>
+               <h3><a href="/blog-single"><%= t('blog.wedding_organisation.title') %></a></h3>
+               <a href="/blog-single" class="post_read_more"><%= t('read_more') %></a>
+             </div>
+             <%= image_tag "template/post_thumb2.jpg" %>
+           </div>
+         </div>
+         <div class="left13_last">
+           <div class="latest_post">
+             <div class="post_info">
+               <span class="post_date"><%= t('blog.honeymoon.date') %></span>
+               <h3><a href="/blog-single"><%= t('blog.honeymoon.title') %></a></h3>
+               <a href="/blog-single" class="post_read_more"><%= t('read_more') %></a>
+             </div>
+             <%= image_tag "template/post_thumb3.jpg" %>
+           </div>
+         </div>
+         <!--a href="/blog" class="view_all"><%= t('blog.more') %></a-->
+         <div class="clear"></div>
+       </div>
         </div>  <!--end of full width-->
       </div> <!--end of about content-->   
-  
-  
-  <div class="home_bottom">
-      <div class="full_width_centered">
-            <div class="left13"> 
-            <div class="bottom_icon"><%= image_tag "template/icon_music.png" %></div>
-            <h2>BACHELOR PARTY</h2>
-            <span class="subtitle">BRING YOUR DANCING SHOES</span>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse <strong>cillum dolore</strong> eu fugiat nulla pariat ur si nt oc caecat non proident, sunt in culpa <a href="#">qui officia</a> deserunt mollit anim id est laborum sed quia non numquam eius modi.</p>
-            <a href="/page" class="post_read_more">READ MORE</a>
-            </div>
-            <div class="left13">
-            <div class="bottom_icon"><%= image_tag "template/icon_location.png" %></div>
-            <h2>WEDDING LOCATION</h2>
-            <span class="subtitle">VENICE, ITALY - HOTEL ADAM</span>
-            <p>Nemo enim ipsam voluptatem <strong>quia voluptas</strong> sit aspernatur aut odit aut fugit, sed quia consequuntur <a href="#">magni</a> dolores eos qui ratione voluptatem sequi nesciunt. Neque quisquam est, qui dolorem ipsum</p>
-            <a href="/page" class="post_read_more">READ MORE</a>
-            </div>
-            <div class="left13_last">
-            <div class="bottom_icon"><%= image_tag "template/icon_gifts.png" %></div>
-            <h2>GIFT REGISTRY</h2>
-            <span class="subtitle">GIVEN FREELY AND OUT OF PURE LOVE</span>
-            <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit <a href="#">esse quam nihil</a> aspernatur aut odit aut fugit molestiae consequatur, vel illum <strong>qui dolorem</strong> eum fugiat quo voluptas nulla pariatur aspernatur.</p>
-            <a href="/page" class="post_read_more">READ MORE</a>
-            </div>
-            
-            <div class="clear"></div>
-      </div>
-  </div>
-   
+
    <%= render 'layouts/footer' %>
 
 </div>
