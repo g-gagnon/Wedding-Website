@@ -1,12 +1,12 @@
 development:
   adapter: postgresql
-  url: postgresql://user:user@localhost/wedding_development
+  url:  <%= ENV["DATABASE_URL"] %>
   pool: <%= ENV["DB_POOL"] || ENV['PUMA_MAX_THREADS'] || 5 %>
   timeout: 5000
 
 test:
   adapter: postgresql
-  url: postgresql://user:user@localhost/wedding_test
+  url:  <%= ENV["DATABASE_URL"] %>
   pool: <%= ENV["DB_POOL"] || ENV['PUMA_MAX_THREADS'] || 5 %>
   timeout: 5000
 
