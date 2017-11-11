@@ -10,10 +10,39 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170921234040) do
+ActiveRecord::Schema.define(version: 20171107193633) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "rsvp", force: :cascade do |t|
+    t.integer  "user_id"
+    t.string   "event"
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
+    t.string   "menu_selection"
+    t.string   "note"
+    t.index ["user_id"], name: "index_rsvp_on_user_id", using: :btree
+  end
+
+  create_table "rsvp_guests", force: :cascade do |t|
+    t.integer  "registration_id"
+    t.string   "name"
+    t.string   "email"
+    t.string   "meal_selection"
+    t.string   "note"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+    t.index ["registration_id"], name: "index_rsvp_guests_on_registration_id", using: :btree
+  end
+
+  create_table "user_configs", force: :cascade do |t|
+    t.integer  "user_id"
+    t.integer  "invitation_type"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+    t.index ["user_id"], name: "index_user_configs_on_user_id", using: :btree
+  end
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
@@ -36,4 +65,7 @@ ActiveRecord::Schema.define(version: 20170921234040) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
   end
 
+  add_foreign_key "rsvp", "users"
+  add_foreign_key "rsvp_guests", "rsvp", column: "registration_id"
+  add_foreign_key "user_configs", "users"
 end
