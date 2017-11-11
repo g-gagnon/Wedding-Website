@@ -1,0 +1,45 @@
+<div id="main_container">
+
+  <%= render 'layouts/menu' %>
+
+  <div class="page_header_photo general_header">
+    <div class="page_header_trans">
+      <div class="page_header_title">
+        <h1><%= t('code.title') %></h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="page_content">
+    <div class="full_width_box">
+      <% if flash[:alert] %>
+        <div class="alert alert-danger fade in">
+          <button class="close" data-dismiss="alert">×</button>
+          <%= flash[:alert] %>
+        </div>
+      <% end %>
+
+      <h3><%= t('code.subtitle') %></h3>
+      <div class="left_full">
+        <%= t('code.content') %>
+      </div>
+
+      <%= form_tag code_path, method: :post do %>
+        <div class="field actions">
+          <%= text_field_tag :code, nil, size: 20 %>
+          <%= submit_tag t('code.submit_button') %>
+        </div>
+      <% end %>
+
+      <div class="clear"></div>
+    </div>  <!--end of full width-->
+  </div> <!--end of about content-->
+
+  <%= render 'layouts/footer' %>
+
+</div>
+<!-- jQuery -->
+<script type="text/javascript">
+    var main_menu = new main_menu.dd("main_menu");
+    main_menu.init("main_menu", "menuhover");
+</script>
