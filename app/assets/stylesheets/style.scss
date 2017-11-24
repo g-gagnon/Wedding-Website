@@ -286,7 +286,8 @@ ul#main_menu {
     a {
       font-family: $font_family_1;
       font-size: 13px;
-      line-height: 85px;
+      //line-height: 85px;
+      line-height: 65px;
       display: inline-block;
       color: $color_3;
       padding: 0 0 0 18px;
@@ -552,8 +553,10 @@ nav.menu {
   width: 100%;
   background: image-url('template/trans_black.png') repeat;
   //background: image-url('template/menu_border_bottom.png') no-repeat center bottom;
-  height: 85px;
-  position: absolute;
+  //height: 85px;
+  //position: absolute;
+  height: 65px;
+  position: fixed;
   top: 0px;
   z-index: 9999;
 }

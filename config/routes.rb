@@ -21,8 +21,7 @@ Rails.application.routes.draw do
     match '/code', to: 'rsvp#code', via: [:get, :post]
     resource :rsvp, controller: 'rsvp'
 
-
-    get '/:locale' => 'pages#index'
+    #get '/:locale' => 'pages#index'
     root 'pages#index'
   end
 

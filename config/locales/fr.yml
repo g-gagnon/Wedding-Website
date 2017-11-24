@@ -22,6 +22,12 @@ fr:
     wedding_organisation:
       date: 1er NOVEMBRE 2017
       title: L'ORGANISATION DU MARIAGE
+  code:
+    content: Vous devriez avoir reçu un code pour vous inscrire au mariage. Si vous l'avez perdu, contactez-nous.
+    submit_button: Soumettre
+    subtitle: Entrez votre code d'enregistrement
+    title: CODE D'ENREGISTREMENT
+  coming_soon: À VENIR
   countdown:
     rsvp: RSVP
     title: Compte à rebours pour la cérémonie de mariage
@@ -35,12 +41,12 @@ fr:
     title: HÉBERGEMENT D'HÔTELS
   index:
     bride:
-      content: 'L''amour est l''amitié qui a pris feu. C''est la compréhension silencieuse, la confiance mutuelle, le partage et le pardon. C''est la loyauté à travers les bons et les mauvais moments. Il se contente de moins que la perfection et fait des provisions pour les faiblesses humaines.'
+      content: L'amour est l'amitié qui a pris feu. C'est la compréhension silencieuse, la confiance mutuelle, le partage et le pardon. C'est la loyauté à travers les bons et les mauvais moments. Il se contente de moins que la perfection et fait des provisions pour les faiblesses humaines.
       quote: Parfois, le cœur voit ce qui est invisible à l'œil.
       subtitle: PLUS SUR SOPHIE
       title: LA MARIÉE
     groom:
-      content: 'Je crois que l''imagination est plus forte que la connaissance. Ce mythe est plus puissant que l''histoire. Ce rêve est plus puissant que les faits. Cette espérance triomphe toujours de l''expérience. Ce rire est le seul remède au chagrin. Et je crois que l''amour est plus fort que la mort.'
+      content: Je crois que l'imagination est plus forte que la connaissance. Ce mythe est plus puissant que l'histoire. Ce rêve est plus puissant que les faits. Cette espérance triomphe toujours de l'expérience. Ce rire est le seul remède au chagrin. Et je crois que l'amour est plus fort que la mort.
       quote: Où il y a de l'amour il y a de la vie.
       subtitle: PLUS SUR GABRIEL
       title: LE MARIÉ
@@ -59,7 +65,7 @@ fr:
     contact: ENTRER EN CONTACT
     english: ANGLAIS
     francais: ENGLISH
-    home: MAISON
+    home: ACCUEIL
     logout: SE DÉCONNECTER
     photos: PHOTOS
     rsvp: RSVP
@@ -67,8 +73,13 @@ fr:
     top: HAUT
     venue: LE LIEU
     wedding: LE MARIAGE
+  photos:
+    back: RETOUR
+    folder:
+      engagement_shoot: Engagement
+      venue: Espace St-Grégoire
+    title: NOS PHOTOS
   read_more: LIRE LA SUITE
-  coming_soon: À VENIR
   rsvp:
     add_guest: Ajouter un invité
     event_title: 'CHOISISSEZ LES ÉVÉNEMENTS(S) AUXQUELS VOUS PARTICIPEREZ:'
@@ -85,8 +96,9 @@ fr:
     front: NOUS ALLONS NOUS MARIER
     under: RÉSERVEZ CETTE DATE
   venue:
+    content:
+      address_html: "<b>Espace Saint-Grégoire Adresse:</b> <br><br> Espace Saint-Grégoire <br> 2, rue Monseigneur-Marc-Leclerc <br> Québec (Québec) G1C 2C4"
+      info: Située près du centre-ville de Québec, cette église historique transformée en salle de réception vous séduira par son design intérieur. Parfait pour accueillir une grande réception, il couvrira tous vos besoins pour cette journée impardonnable.
+      parking: Le stationnement est disponible juste en face de la salle, l'accès est facile par l'autoroute, mais nous ne pouvons pas garantir qu'il n'y aura pas de trafic avec le sommet du G7 qui se passe pas trop loin.
+      website: Site web de l'Espace St-Grégoire
     name: ESPACE ST-GRÉGOIRE
-  photos:
-    folder:
-      engagement_shoot: Engagement
-      venue: Espace St-Grégoire

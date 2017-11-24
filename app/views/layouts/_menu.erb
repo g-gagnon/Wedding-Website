@@ -21,9 +21,9 @@
     <% end %>
 
     <% if I18n.locale == :fr %>
-      <li><%= nav_link t('menu.english'), root_path(locale: 'en') %></li>
+      <li><%= nav_link t('menu.english'), locale: 'en' %></li>
     <% else %>
-      <li><%= nav_link t('menu.francais'), root_path(locale: 'fr') %></li>
+      <li><%= nav_link t('menu.francais'), locale: 'fr' %></li>
     <% end %>
   </ul>
 </nav>
