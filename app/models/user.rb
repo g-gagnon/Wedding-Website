@@ -20,7 +20,7 @@ class User < ApplicationRecord
   end
 
   def build_default_user_config
-    build_user_config(invitation_type: 'NONE')
+    build_user_config(invitation_type: 'undeclared')
     true
   end
 end
