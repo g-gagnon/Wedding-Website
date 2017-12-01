@@ -2,14 +2,14 @@
 
   <%= render 'layouts/menu' %>
 
-  <div class="page_header_photo general_header">
+  <div class="rsvp_header_photo general_header">
     <div class="page_header_trans">
     </div>
   </div>
 
   <div class="page_content">
     <div class="full_width_box">
-      <h3>CREATE AN ACCOUNT</h3>
+      <h3><%= t('login.title') %></h3>
 
       <div>
 
@@ -42,7 +42,7 @@
           <br>
 
           <div class="actions">
-            <%= f.submit "Create account" %>
+            <%= f.submit t('login.create_account') %>
           </div>
         <% end %>
         <%= render "devise/shared/links" %>

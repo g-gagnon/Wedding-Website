@@ -10,6 +10,12 @@ en:
         name: Name
       rsvp_guests:
         name: Guest name
+      user:
+        email: Email
+        password: Password
+        remember_me: Remember me
+        name: Name
+        password_confirmation: Password confirmation
   blog:
     honeymoon:
       date: 1 NOVEMBER 2017
@@ -60,6 +66,15 @@ en:
     content: Our Quebec City wedding will be held at a beautiful historic church just seconds away from the Montmorency Falls. It has recently been converted into a reception hall. Both the ceremony and the reception will be there.
     subtitle: QUEBEC CITY - ESPACE ST-GRÉGOIRE
     title: WEDDING LOCATION
+  login:
+    title: Create an account
+    create_with_email: Create an account with an email
+    facebook: Sign in with Facebook
+    forgot_password: Forgot your password?
+    info: 'Dear guests, by creating an account you will help us coordinate our wedding. We will use the email address associated with your Facebook account to send you updates in the future (eg.: When the meal selection will be available).'
+    use_email: Want to use an email instead?
+    create_account: "Create account"
+    log_in: "Log in"
   menu:
     blog: BLOG
     contact: GET IN TOUCH

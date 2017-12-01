@@ -23,19 +23,14 @@
 
       <h3>LOG IN</h3>
 
-      <p>Dear guests, by creating an account you will help us coordinate our wedding. We will use the email address
-        associated with your Facebook account to send you updates in the future (eg.: When the meal selection will be
-        available).
-      </p>
+      <p><%= t('login.info') %></p>
 
       <%= link_to user_facebook_omniauth_authorize_path, class: "'btn btn-facebook btn btn-lg btn-block" do %>
-        <span class="fa fa-facebook"></span> Sign in with Facebook
+        <span class="fa fa-facebook"></span> <%= t('login.facebook') %>
       <% end %>
 
       <br><br>
-      <a href="#email_login" class="btn btn-default btn-expand" data-toggle="collapse">Click here if you want to use an
-        email
-        instead of Facebook.</a>
+      <a href="#email_login" class="btn btn-default btn-expand" data-toggle="collapse"><%= t('login.use_email') %></a>
 
       <div id="email_login" class="collapse div-expand">
 

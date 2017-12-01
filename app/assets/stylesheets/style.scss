@@ -1235,7 +1235,7 @@ img.avatar {
 }
 
 .photos_header_photo {
-  background: image-url('blog_header') no-repeat left top;
+  background: image-url('photos_header') no-repeat right top;
   height: 250px;
   background-size: cover;
 }
@@ -1530,6 +1530,7 @@ span.swirl_right_transparent {
   ul {
     list-style: none;
     display: inline-block;
+    padding: 0px;
   }
   li {
     padding: 0 10px 0 20px;

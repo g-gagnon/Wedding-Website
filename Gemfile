@@ -63,7 +63,7 @@ group :development do
   gem 'i18n-tasks', '~> 0.9.18'
 
   # I18n lookup in log
-  #gem 'i18n-debug'
+  gem 'i18n-debug'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
