@@ -1,8 +1,14 @@
 
 .full_width_box {
   max-width: 500px;
-  margin: 0 3% 80px 3%;
+  margin: auto;
   padding: 40px 0;
+}
+
+@media screen and (max-width: 680px) {
+  .full_width_box {
+    margin: 0 3% 80px 3%;
+  }
 }
 
 .btn-expand {
