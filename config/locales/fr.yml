@@ -12,10 +12,10 @@ fr:
         name: Nom de l'invité
       user:
         email: Courriel
-        password: Mot de passe
-        remember_me: Se souvenir
         name: Nom
+        password: Mot de passe
         password_confirmation: Confirmation du mot de passe
+        remember_me: Se souvenir
   blog:
     honeymoon:
       date: 1er NOVEMBRE 2017
@@ -47,13 +47,11 @@ fr:
     title: HÉBERGEMENT D'HÔTELS
   index:
     bride:
-      content: L'amour est l'amitié qui a pris feu. C'est la compréhension silencieuse, la confiance mutuelle, le partage et le pardon. C'est la loyauté à travers les bons et les mauvais moments. Il se contente de moins que la perfection et fait des provisions pour les faiblesses humaines.
-      quote: Parfois, le cœur voit ce qui est invisible à l'œil.
+      content: Sophie est née à Nanjing en Chine et a immigré à Montréal avec ses parents à l'âge de 6 ans. Après avoir déménagé et changé d'école plusieurs fois durant son enfance, sa famille s'est installée dans l'ouest de l'île de Montréal. Sophie était une enfant gênée et s'est sentie à la maison au secondaire après avoir raté la 8e année. Après avoir développé une avidité pour les sciences de la santé, Sophie a décidé de poursuivre une carrière en médecine et termine sa dernière année à l'Université McGill. Depuis sa rencontre avec Gabriel, la vie de Sophie n'a jamais été aussi épanouie ni heureuse.
       subtitle: PLUS SUR SOPHIE
       title: LA MARIÉE
     groom:
-      content: Je crois que l'imagination est plus forte que la connaissance. Ce mythe est plus puissant que l'histoire. Ce rêve est plus puissant que les faits. Cette espérance triomphe toujours de l'expérience. Ce rire est le seul remède au chagrin. Et je crois que l'amour est plus fort que la mort.
-      quote: Où il y a de l'amour il y a de la vie.
+      content: Gabriel est né à Québec et a passé ses étés durant son enfance à Jonquière, grandissant entouré de sa grande famille unie. Il décide de suivre les traces de ses parents et poursuit une carrière en développement logiciel avec un baccalauréat en informatique de l'Université Laval. Après avoir travaillé quelques années à Québec, le destin l'a amené à Montréal où il s'est joint à Tinder et le reste est de l'histoire!
       subtitle: PLUS SUR GABRIEL
       title: LE MARIÉ
     groomlist:
@@ -67,13 +65,14 @@ fr:
     subtitle: VILLE DE QUÉBEC - ESPACE ST-GRÉGOIRE
     title: EMPLACEMENT DE MARIAGE
   login:
-    title: Créer un compte
+    create_account: Créer le compte
     create_with_email: Créer un compte avec un courriel
     facebook: Se connecter avec Facebook
     forgot_password: Oublié votre mot de passe?
+    info: 'Chers invités, en créant un compte, vous nous aiderez à coordonner notre mariage. Nous utiliserons l''adresse e-mail associée à votre compte Facebook pour vous envoyer des mises à jour à l''avenir (par exemple: lorsque la sélection de repas sera disponible).'
+    log_in: Déjà enregistré? Se connecter
+    title: Créer un compte
     use_email: Vous voulez utiliser un courriel?
-    create_account: "Créer le compte"
-    log_in: "Déjà enregistré? Se connecter"
   menu:
     blog: BLOG
     contact: ENTRER EN CONTACT

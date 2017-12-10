@@ -8,7 +8,7 @@ class PagesController < ApplicationController
 
     PHOTOS_FOLDER.each do |folder|
       files = Dir.glob("app/assets/images/#{folder}/*.*").map { |file| File.basename file, ".*" }
-      @photos[folder] = files
+      @photos[folder] = files.sort
     end
   end
 
