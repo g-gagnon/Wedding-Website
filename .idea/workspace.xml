@@ -2,29 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7b2aeb4-e225-4638-8e25-9e26a69a4f78" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/engagement_shoot/18-201_SophieGabriel_100001.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/engagement_shoot/18-201_SophieGabriel_100017.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/engagement_shoot/18-201_SophieGabriel_100028.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/engagement_shoot/18-201_SophieGabriel_100040.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/engagement_shoot/18-201_SophieGabriel_100055.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/engagement_shoot/18-201_SophieGabriel_100057.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/engagement_shoot/18-201_SophieGabriel_100063.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/engagement_shoot/18-201_SophieGabriel_100066.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/engagement_shoot/18-201_SophieGabriel_100090.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/engagement_shoot/thumbnails/18-201_SophieGabriel_100001.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/engagement_shoot/thumbnails/18-201_SophieGabriel_100017.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/engagement_shoot/thumbnails/18-201_SophieGabriel_100028.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/engagement_shoot/thumbnails/18-201_SophieGabriel_100040.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/engagement_shoot/thumbnails/18-201_SophieGabriel_100055.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/engagement_shoot/thumbnails/18-201_SophieGabriel_100057.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/engagement_shoot/thumbnails/18-201_SophieGabriel_100063.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/engagement_shoot/thumbnails/18-201_SophieGabriel_100066.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/engagement_shoot/thumbnails/18-201_SophieGabriel_100090.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/rsvp_header.jpg" afterPath="$PROJECT_DIR$/app/assets/images/rsvp_header.jpg" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/style.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/style.scss" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/pages_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/index.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/index.html.erb" />
       <change beforePath="$PROJECT_DIR$/config/locales/en.yml" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
       <change beforePath="$PROJECT_DIR$/config/locales/fr.yml" afterPath="$PROJECT_DIR$/config/locales/fr.yml" />
     </list>
@@ -41,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="photos.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="photos.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/pages/photos.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            <state relative-caret-position="208">
+              <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -61,11 +38,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="560" column="17" lean-forward="true" selection-start-line="560" selection-start-column="17" selection-end-line="560" selection-end-column="17" />
+            <state relative-caret-position="169">
+              <caret line="563" column="21" lean-forward="true" selection-start-line="563" selection-start-column="21" selection-end-line="563" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fr.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/locales/fr.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="49" column="244" lean-forward="false" selection-start-line="49" selection-start-column="244" selection-end-line="49" selection-end-column="244" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="en.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="49" column="248" lean-forward="false" selection-start-line="49" selection-start-column="248" selection-end-line="49" selection-end-column="248" />
               <folding />
             </state>
           </provider>
@@ -183,10 +180,10 @@
         <option value="$PROJECT_DIR$/app/views/pages/venue.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" />
         <option value="$PROJECT_DIR$/app/views/pages/index.html.erb" />
-        <option value="$PROJECT_DIR$/config/locales/en.yml" />
-        <option value="$PROJECT_DIR$/config/locales/fr.yml" />
         <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/style.scss" />
+        <option value="$PROJECT_DIR$/config/locales/fr.yml" />
+        <option value="$PROJECT_DIR$/config/locales/en.yml" />
       </list>
     </option>
   </component>
@@ -537,15 +534,16 @@
       <workItem from="1512315254657" duration="1534000" />
       <workItem from="1512398549314" duration="267000" />
       <workItem from="1512400324700" duration="131000" />
-      <workItem from="1512919814567" duration="1307000" />
+      <workItem from="1512919814567" duration="1915000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167540000" />
+    <option name="totallyTimeSpent" value="168148000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2560" y="878" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25608012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -556,7 +554,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24808185" sideWeight="0.49427754" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36445013" sideWeight="0.49642345" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36445013" sideWeight="0.49642345" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4910486" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -843,22 +841,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/fr.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="53" column="47" lean-forward="true" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
@@ -899,14 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/photos.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -917,8 +891,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="560" column="17" lean-forward="true" selection-start-line="560" selection-start-column="17" selection-end-line="560" selection-end-column="17" />
+        <state relative-caret-position="169">
+          <caret line="563" column="21" lean-forward="true" selection-start-line="563" selection-start-column="21" selection-end-line="563" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/fr.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="49" column="244" lean-forward="false" selection-start-line="49" selection-start-column="244" selection-end-line="49" selection-end-column="244" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="49" column="248" lean-forward="false" selection-start-line="49" selection-start-column="248" selection-end-line="49" selection-end-column="248" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/photos.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
           <folding />
         </state>
       </provider>
