@@ -44,7 +44,7 @@ fr:
   hotel:
     content: La fin de semaine de notre marriage tombe en même temps que la rencontre du G7 dans Charlevoix. Les hôtels sont alors plus difficiles à réserver, donc nous vous conseillons de ne pas attendre pour choisir vos accomodations. Airbnb est aussi une bonne option.
     subtitle: PORTEZ ATTENTION
-    title: HÉBERGEMENT D'HÔTELS
+    title: HÉBERGEMENT
   index:
     bride:
       content: Sophie est née à Nanjing en Chine et a immigré à Montréal avec ses parents à l'âge de 6 ans. Après avoir déménagé et changé d'école plusieurs fois durant son enfance, sa famille s'est installée dans l'ouest de l'île de Montréal. Après avoir développé une avidité pour les sciences de la santé, Sophie a décidé de poursuivre une carrière en médecine et termine sa dernière année à l'Université McGill. Depuis sa rencontre avec Gabriel, la vie de Sophie n'a jamais été aussi épanouie ni heureuse.
@@ -63,7 +63,7 @@ fr:
   location:
     content: Notre mariage à Québec aura lieu dans une magnifique église historique à quelques secondes des chutes Montmorency. Elle a été récemment transformé en salle de réception. Tant la cérémonie que la réception seront là.
     subtitle: VILLE DE QUÉBEC - ESPACE ST-GRÉGOIRE
-    title: EMPLACEMENT DE MARIAGE
+    title: EMPLACEMENT DU MARIAGE
   login:
     create_account: Créer le compte
     create_with_email: Créer un compte avec un courriel
