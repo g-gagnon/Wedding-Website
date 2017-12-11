@@ -98,8 +98,8 @@ fr:
     event_title: 'CHOISISSEZ LES ÉVÉNEMENTS(S) AUXQUELS VOUS PARTICIPEREZ:'
     guest_info: Laissez les champs vide si aucun
     guest_title_html: DÉTAILS ET COMMENTAIRES
-    meal_title: VEUILLEZ CHOISIR UN CHOIX DE REPAS
-    menu_info: Le menu sera disponible dans le futur. Un message vous sera envoyé dès que la sélection sera disponible. Vous pouvez toujours nous laisser quelques notes sur les allergies et d'autres contraintes pour nous aider à planifier en conséquence.
+    meal_title: VEUILLEZ CHOISIR UN CHOIX DE REPAS POUR VOUS
+    menu_info: Le menu sera disponible dans le futur. Un message vous sera envoyé dès que la sélection sera disponible. Vous pouvez toujours nous laisser quelques notes sur les allergies et autres restrictions alimentaires pour nous aider à planifier en conséquence.
     remove_guest: Supprimer un invité
     save_success: Inscription mise à jour!
     send_rsvp: Envoyer RSVP

@@ -40,7 +40,7 @@
   </div>
   <% unless current_user.user_config.solo? %>
     <h3 class="form_subtitle"><%= t('rsvp.guest_title_html') %></h3>
-    <div class="center-block"><%= t('rsvp.guest_info') %></div>
+    <div class="center-block" style="padding-bottom: 5px;"><%= t('rsvp.guest_info') %></div>
 
     <div id='rsvp_guests'>
     <%= f.fields_for :rsvp_guests do |rsvp_guests| %>

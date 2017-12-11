@@ -98,8 +98,8 @@ en:
     event_title: 'SELECT THE EVENTS(S) YOU WILL BE ATTENDING:'
     guest_info: Leave fields blank if none
     guest_title_html: GUEST DETAILS &amp; COMMENTS
-    meal_title: PLEASE SELECT A MEAL CHOICE
-    menu_info: The menu will be available in the future. A message will be sent to you once the selection will be available. You can still leave us some notes about allergies and other constraints to help us plan accordingly.
+    meal_title: PLEASE SELECT A MEAL CHOICE FOR YOU
+    menu_info: The menu will be available in the future. A message will be sent to you once the selection will be available. You can still leave us some notes about allergies and other restrictions to help us plan accordingly.
     remove_guest: Remove guest
     save_success: Registration updated!
     send_rsvp: SEND RSVP
