@@ -90,7 +90,7 @@ en:
     back: BACK
     folder:
       engagement_shoot: Engagement shoot
-      venue: venue
+      venue: Espace St-Grégoire
     title: OUR PHOTOS
   read_more: READ MORE
   rsvp:
@@ -104,8 +104,9 @@ en:
     save_success: Registration updated!
     send_rsvp: SEND RSVP
     update_rsvp: UPDATE RSVP
+    menu_note: MENU NOTE
   title:
-    date: '09.06.2018'
+    date: 'June 9, 2018'
     front: WE ARE GETTING MARRIED
     under: SAVE THE DATE
   venue:

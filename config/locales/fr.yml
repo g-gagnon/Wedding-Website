@@ -104,8 +104,9 @@ fr:
     save_success: Inscription mise à jour!
     send_rsvp: Envoyer RSVP
     update_rsvp: MISE À JOUR RSVP
+    menu_note: NOTE POUR LE MENU
   title:
-    date: '09.06.2018'
+    date: '9 Juin 2018'
     front: NOUS ALLONS NOUS MARIER
     under: RÉSERVEZ CETTE DATE
   venue:
