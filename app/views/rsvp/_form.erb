@@ -26,26 +26,46 @@
       <%= f.radio_button :event, "Ceremony" %>
       <%= f.label :event_ceremony %>
     </div>
+    <div class="checkbox_container left13_last">
+      <%= f.radio_button :event, "None" %>
+      <%= f.label :event_none %>
+    </div>
   </div>
 
   <h3 class="form_subtitle"><%= t('rsvp.meal_title') %></h3>
   <div class="form_section">
-    <div class="form_row">
+    <!--div class="form_row">
       <%= t('rsvp.menu_info') %>
+    </div-->
+    <div class="checkbox_container left13_first">
+      <%= f.radio_button :menu_selection, "Rabbit" %>
+      <%= f.label :menu_selection_rabbit, t('rsvp.rabbit') %>
     </div>
-    <div class="form_row_full">
-      <%= f.label :note, t('rsvp.menu_note') %>
-      <%= f.text_area(:note, class: 'form_textarea_full') %>
+    <div class="checkbox_container left13">
+      <%= f.radio_button :menu_selection, "Duck" %>
+      <%= f.label :menu_selection_duck, t('rsvp.duck') %>
     </div>
+    <div class="checkbox_container left13_last">
+      <%= f.radio_button :menu_selection, "Quail" %>
+      <%= f.label :menu_selection_quail, t('rsvp.quail') %>
+    </div>
+    <div class="checkbox_container left13_first">
+      <%= f.radio_button :menu_selection, "Salmon" %>
+      <%= f.label :menu_selection_salmon, t('rsvp.salmon') %>
+    </div>
+  </div>
+  <div class="form_row_full">
+    <%= f.label :note, t('rsvp.menu_note') %>
+    <%= f.text_area(:note, class: 'form_textarea_full') %>
   </div>
   <% unless current_user.user_config.solo? %>
     <h3 class="form_subtitle"><%= t('rsvp.guest_title_html') %></h3>
     <div class="center-block" style="padding-bottom: 5px;"><%= t('rsvp.guest_info') %></div>
 
     <div id='rsvp_guests'>
-    <%= f.fields_for :rsvp_guests do |rsvp_guests| %>
-      <% render 'rsvp_guest_fields', f: rsvp_guests %>
-    <% end %>
+      <%= f.fields_for :rsvp_guests do |rsvp_guests| %>
+        <% render 'rsvp_guest_fields', f: rsvp_guests %>
+      <% end %>
     </div>
 
     <div class="links">
@@ -54,8 +74,9 @@
   <% end %>
 
   <div class="form_row">
-    <% submit_text =  @rsvp.new_record? ? t('rsvp.send_rsvp') : t('rsvp.update_rsvp') %>
-    <%= f.submit submit_text, class: 'form_submit_contact', id: 'submit'%>
-    <label id="loader" style="display:none;"><%= image_tag "template/loader.gif" %> alt= "Loading..."id="LoadingGraphic"></label>
+    <% submit_text = @rsvp.new_record? ? t('rsvp.send_rsvp') : t('rsvp.update_rsvp') %>
+    <%= f.submit submit_text, class: 'form_submit_contact', id: 'submit' %>
+    <label id="loader" style="display:none;"><%= image_tag "template/loader.gif" %> alt=
+      "Loading..."id="LoadingGraphic"></label>
   </div>
 <% end %>

@@ -13,7 +13,7 @@
       <h2><%= t('location.title') %></h2>
       <span class="subtitle"><%= t('location.subtitle') %></span>
       <p><%= t('location.content') %></p>
-      <a href="/venue" class="post_read_more"><%= t('read_more') %></a>
+      <%= link_to t('read_more'), venue_path, class: 'post_read_more' %>
     </div>
     <div class="left13_last">
       <div class="bottom_icon"><%= image_tag "template/icon_gifts.png" %></div>
@@ -48,7 +48,10 @@
       <ul>
         <li><%= nav_link t('menu.home'), root_path %></li>
         <li><%= nav_link t('menu.wedding'), venue_path %></li>
+        <li><%= nav_link t('menu.photos'), photos_path %></li>
         <li><%= nav_link t('menu.rsvp'), rsvp_path %></li>
+        <li><%= nav_link t('menu.registry'), registry_path %></li>
+        <li><%= nav_link t('menu.faq'), faq_path %></li>
         <!--li><%= nav_link t('menu.contact'), contact_path %></li-->
         <li>
           <a onClick="jQuery('html, body').animate( { scrollTop: 0 }, 'slow' );" href="javascript:void(0);" class="gotop"><%= t('menu.top') %></a>

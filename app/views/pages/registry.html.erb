@@ -1,0 +1,33 @@
+<div id="main_container">
+
+  <%= render 'layouts/menu' %>
+
+  <div class="blog_header_photo">
+    <div class="page_header_trans">
+      <div class="page_header_title">
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="page_content">
+    <div class="full_width_centered">
+      <h2><%= t('registry.name') %></h2>
+      <div class="left_full">
+        <p><%= t('registry.p1') %></p>
+        <p><%= t('registry.p2') %></p>
+        <p class="form_content"><a href="https://www.myregistry.com/wedding-registry/Sophie-Zhu-and-Gabriel-Gagnon-Montreal-QUEBEC/1529219" class="view_all"><%= t('registy.link') %></a></p>
+      </div>
+
+      <div class="clear"></div>
+    </div>  <!--end of full width-->
+  </div> <!--end of about content-->
+
+  <%= render 'layouts/footer' %>
+
+</div>
+<script type="text/javascript">
+    var main_menu = new main_menu.dd("main_menu");
+    main_menu.init("main_menu", "menuhover");
+</script>

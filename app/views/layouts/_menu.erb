@@ -5,14 +5,15 @@
   <ul id="main_menu">
     <li><%= nav_link t('menu.home'), root_path %></li>
     <li><%= nav_link t('menu.wedding'), venue_path %>
-      <!--ul>
+      <ul>
         <li><%= nav_link t('menu.venue'), venue_path %></li>
-        <li><%= nav_link 'LOVELY DROP DOWN', page_path %></li>
-        <li><%= nav_link 'LOVELY DROP DOWN', page_path %></li>
-      </ul-->
+        <li><%= nav_link t('menu.vendors'), vendors_path %></li>
+      </ul>
     </li>
     <li><%= nav_link t('menu.photos'), photos_path %></li>
     <li><%= nav_link t('menu.rsvp'), rsvp_path %></li>
+    <li><%= nav_link t('menu.registry'), registry_path %></li>
+    <li><%= nav_link t('menu.faq'), faq_path %></li>
     <!--li><%= nav_link t('menu.contact'), contact_path %></li-->
     <% if user_signed_in? %>
       <li><%= nav_link t('menu.logout'), sign_out_path %></li>

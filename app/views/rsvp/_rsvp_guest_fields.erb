@@ -1,4 +1,4 @@
-<div class="form_section">
+<div class="form_section_guest">
   <div class="form_row left13_first">
     <%= f.label :name %>
     <%= f.text_field :name, class: 'form_input required', id: 'rsvpname' %>
@@ -7,9 +7,28 @@
     <%= f.label :email %>
     <%= f.email_field :email, class: 'form_input email', id: 'rsvpemail' %>
   </div>
+  <div class="form_row_full" style="margin: 0px;">
+    <%= f.label :meal_selection %>
+  </div>
+  <div class="checkbox_container left13_first">
+    <%= f.radio_button :meal_selection, "Rabbit" %>
+    <%= f.label :meal_selection_rabbit, t('rsvp.rabbit') %>
+  </div>
+  <div class="checkbox_container left13">
+    <%= f.radio_button :meal_selection, "Duck" %>
+    <%= f.label :meal_selection_duck, t('rsvp.duck') %>
+  </div>
+  <div class="checkbox_container left13_last">
+    <%= f.radio_button :meal_selection, "Quail" %>
+    <%= f.label :meal_selection_quail, t('rsvp.quail') %>
+  </div>
+  <div class="checkbox_container left13_first">
+    <%= f.radio_button :meal_selection, "Salmon" %>
+    <%= f.label :meal_selection_salmon, t('rsvp.salmon') %>
+  </div>
   <div class="form_row_full">
     <%= f.label :note %>
     <%= f.text_area :note, class: 'form_textarea_full', id: 'rsvpcomments' %>
   </div>
-  <%= link_to_remove_association(t('rsvp.remove_guest'), f, {wrapper_class: 'form_section'}) %>
+  <%= link_to_remove_association(t('rsvp.remove_guest'), f, {class: "view_all_remove", wrapper_class: 'form_section_guest'}) %>
 </div>

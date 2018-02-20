@@ -5,6 +5,7 @@ fr:
       rsvp:
         event_all: Cérémonie de mariage et réception
         event_ceremony: Cérémonie de mariage seulement
+        event_none: Absent
       rsvp_guest:
         email: Courriel
         name: Nom
@@ -37,6 +38,35 @@ fr:
   countdown:
     rsvp: RSVP
     title: Compte à rebours pour la cérémonie de mariage
+  faq:
+    answer:
+      a10: Nous avons l'espace jusqu'à 1 heure du matin. Nous n'allons pas faire obstacle à une bon party, nous sommes prêts à allonger la soirée s'il y a lieu!
+      a11: Nous aurons un bar ouvert pour tous, toute la nuit! Du vin sera servi au dîner.
+      a12: En raison du Sommet du G7 organisé à Charlevoix, nous n'avons pas pu obtenir un bloc de chambres d'hôtel et nous prévoyons des difficultés à réserver des chambres. Nous conseillons à tous nos invités de regarder les hébergements AirBnB dès que possible. Si vous avez des difficultés, veuillez nous en aviser.
+      a1_html: 'Le code vestimentaire est formel: nous recommandons aux hommes de porter un complet, et les femmes une robe ou un pantalon habillé. S''il vous plaît ne pas porter des nuances de blanc. <br> Il y aura de la danse toute la nuit, alors les dames apportées une paire d''espadrilles!'
+      a2: La cérémonie commencera à 15h30. Les portes seront fermées à 15h15, alors s'il vous plaît ne soyez pas en retard. Nous vous recommandons d'arriver avant 15 heures.
+      a3: Nous vous demandons de vous inscrire avant le 1er avril. S'il vous est impossible de confirmer votre présence avant la date limite, veuillez nous le faire savoir afin que nous puissions vous accommoder.
+      a4: Il y a un parking public gratuit sur le site, et beaucoup de stationnement gratuit dans la rue à proximité.
+      a5: Nous aimons TOUS vos enfants, cependant nous avons décidé d'avoir un mariage réservé aux adultes, à part notre porteur d'anneau et notre bouquetière. Nous nous excusons pour tout inconvénient que cela pourrait causer, et nous espérons que vous serez toujours en mesure d'assister au mariage.
+      a6_html: Nous avons une cérémonie de mariage "unplugged". Cela signifie que nous apprécierions que vous n'utilisiez pas vos téléphones portables et vos appareils photo pour la durée de la cérémonie. Notre excellent photographe et vidéaste prendront toutes les photos et elles seront disponibles après le mariage. Vous êtes libre de prendre autant de photos que vous le souhaitez avant et après la cérémonie et pour le reste de la soirée. N'hésitez pas à les partager avec nous et à utiliser notre hashtag <b>#gabgagnesof</b> sur les réseaux sociaux.
+      a7: S'il vous plaît vérifier votre invitation de mariage pour votre code d'enregistrement. La page RSVP vous dira si vous pouvez ajouter un invité ou non. Si vous pensez qu'une erreur a été commise, veuillez nous contacter.
+      a8: Les options du menu sont disponibles sur la page RSVP. Une fois connecté, vous serez en mesure de choisir votre choix de repas. Il sera accompagné d'une soupe et d'un dessert. Il y a une boîte sur la page RSVP pour que vous nous partager vos restrictions alimentaires que vous pourriez avoir.
+      a9_href: page de registre
+      a9_html: S'il vous plaît consulter notre %{href}.
+    name: FOIRE AUX QUESTIONS
+    question:
+      q1: Qu'est-ce que je porte au mariage?
+      q10: A quelle heure la réception doit-elle se terminer?
+      q11: Y aura-t-il des boissons alcoolisées servies?
+      q12: Nous venons de l'extérieur de la ville, où devrais-je rester?
+      q2: A quelle heure devrais-je arriver?
+      q3: Quand devrais-je confirmer ma présence?
+      q4: Y a-t-il un stationnement disponible près des lieux?
+      q5: Puis-je amener mes enfants?
+      q6: Puis-je prendre des photos?
+      q7: Puis-je apporter un +1?
+      q8: Quel type de nourriture sera servi?
+      q9: Où êtes-vous enregistré?
   gift_registry:
     content: Nous avons organisé quelques registres de cadeaux en ligne pour vous aider à trouver un cadeau approprié et unique. Les cadeaux en espèces sont aussi une alternative appréciée.
     subtitle: À VOTRE PROPRE DISCRÉTION
@@ -77,13 +107,16 @@ fr:
     blog: BLOG
     contact: ENTRER EN CONTACT
     english: ANGLAIS
+    faq: FAQ
     francais: ENGLISH
     home: ACCUEIL
     logout: SE DÉCONNECTER
     photos: PHOTOS
+    registry: REGISTRE
     rsvp: RSVP
     signin: SE CONNECTER
     top: HAUT
+    vendors: VENDEURS
     venue: LE LIEU
     wedding: LE MARIAGE
   photos:
@@ -93,26 +126,40 @@ fr:
       venue: Espace St-Grégoire
     title: NOS PHOTOS
   read_more: LIRE LA SUITE
+  registry:
+    name: REGISTRE DE MARIAGE
+    p1: Nous avons organisé une liste de cadeaux sur MyRegistry.com pour vous aider dans vos achats. Ce registre comprend des options de cadeaux en espèces, une liste de souhaits Amazon et d'autres listes. Vous pouvez toujours utiliser le numéro de registre (400137306509) pour Hudson's Bay pour acheter en magasin. La liste sera mise à jour périodiquement, alors revenez dans le future pour voir les changements!
+    p2: Nous vous remercions beaucoup d'avance, et le plus grand cadeau que vous pouvez nous faire est votre présence sur cette journée si importante pour nous. Encore une fois merci. Prière de nous pardonner le registre en anglais, c'est la seule option que nous avons trouvée.
+  registy:
+    link: REGISTRE
   rsvp:
     add_guest: Ajouter un invité
+    duck: Magret de canard, sauce cassis et porto, pommes de terre dauphinoise
     event_title: 'CHOISISSEZ LES ÉVÉNEMENTS(S) AUXQUELS VOUS PARTICIPEREZ:'
     guest_info: Laissez les champs vide si aucun
     guest_title_html: DÉTAILS ET COMMENTAIRES
     meal_title: VEUILLEZ CHOISIR UN CHOIX DE REPAS POUR VOUS
     menu_info: Le menu sera disponible dans le futur. Un message vous sera envoyé dès que la sélection sera disponible. Vous pouvez toujours nous laisser quelques notes sur les allergies et autres restrictions alimentaires pour nous aider à planifier en conséquence.
+    menu_note: NOTE POUR LE MENU
+    quail: Caille Royale farcie, sauce à la poires et baies roses, légumes de saison
+    rabbit: Râble de lapin farci aux pommes, sauce fines herbes, pommes de terre dauphinoise
     remove_guest: Supprimer un invité
+    salmon: Pavé de saumon, sauce basilic, légumes de saison
     save_success: Inscription mise à jour!
     send_rsvp: Envoyer RSVP
     update_rsvp: MISE À JOUR RSVP
-    menu_note: NOTE POUR LE MENU
   title:
-    date: '9 Juin 2018'
+    date: 9 JUIN 2018
     front: NOUS ALLONS NOUS MARIER
     under: RÉSERVEZ CETTE DATE
+  vendors:
+    name: VENDEURS
+    p1: Ce mariage ne serait pas possible sans tous nos fournisseurs, nous aidant à rendre cet événement inoubliable. Nous aimerions les remercier pour leur travail.
+    p2: 'Dans aucun ordre particulier:'
   venue:
     content:
       address_html: "<b>Espace Saint-Grégoire Adresse:</b> <br><br> Espace Saint-Grégoire <br> 2, rue Monseigneur-Marc-Leclerc <br> Québec (Québec) G1C 2C4"
       info: Située près du centre-ville de Québec, cette église historique transformée en salle de réception vous séduira par son design intérieur. Parfait pour accueillir une grande réception, il couvrira tous vos besoins pour cette journée inoubliable.
-      parking: Le stationnement est disponible juste en face de la salle, l'accès est facile par l'autoroute, mais nous ne pouvons pas garantir qu'il n'y aura pas de trafic avec le sommet du G7 qui se passe pas trop loin.
+      parking: Le stationnement est disponible juste en face de la salle, l'accès est facile par l'autoroute, mais nous ne pouvons pas garantir qu'il n'y aura pas de trafic avec le sommet du G7 qui se passe pas trop loin. Tant la cérémonie que la réception se tiendront là.
       website: Site web de l'Espace St-Grégoire
     name: ESPACE ST-GRÉGOIRE

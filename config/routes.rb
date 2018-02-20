@@ -13,8 +13,11 @@ Rails.application.routes.draw do
     get '/blog-single', to: 'pages#blog'
     get '/bridesmaids', to: 'pages#bridesmaids'
     get '/contact', to: 'pages#contact'
+    get '/faq', to: 'pages#faq'
     get '/page', to: 'pages#page'
     get '/photos', to: 'pages#photos'
+    get '/registry', to: 'pages#registry'
+    get '/vendors', to: 'pages#vendors'
     get '/venue', to: 'pages#venue'
 
     get '/rsvp', to: 'rsvp#rsvp'

@@ -235,7 +235,7 @@ h6 {
   font-weight: 300;
   letter-spacing: -0.5px;
   color: $color_2;
-  padding: 0 0 40px 0;
+  padding: 20px 0 15px 0;
   margin: 0;
   font-size: 16px;
   font-family: $font_family_1;
@@ -262,7 +262,7 @@ h6 {
     font-weight: 800;
   }
   h6 {
-    text-align: center;
+    text-align: left;
     font-weight: 800;
   }
   padding: 40px 0 0 0;
@@ -310,25 +310,32 @@ ul#main_menu {
   }
   ul {
     position: absolute;
-    top: 85px;
+    //top: 85px;
+    top: 65px;
     left: 0;
-    background: #f5f4f4;
+    padding: 5px;
+    background: image-url('template/trans_black.png') repeat;
+    //background: #f5f4f4;
     display: none;
     opacity: 0;
     list-style: none;
     li {
       position: relative;
-      width: 220px;
+      width: 175px;
       margin: 0;
       padding: 0px;
       height: 50px;
       line-height: 50px;
       text-align: left;
+      &:last-child {
+        float: right;
+        padding: 0px;
+      }
       a {
         display: block;
         padding: 0 20px;
         font-size: 13px;
-        color: $color_4;
+        color: $color_3;
         height: 50px;
         line-height: 50px;
         &:hover {
@@ -350,7 +357,7 @@ ul#main_menu {
 .title_date {
   font-family: $font_family_1;
   color: $color_3;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 36px;
   padding: 20px 0 10px 0;
 }
@@ -1000,6 +1007,10 @@ a.view_all {
     color: $color_2;
   }
 }
+a.view_all_remove {
+ @extend a.view_all;
+  padding : 10px 20px;
+}
 .view_all_carousel {
   width: 97%;
   clear: both;
@@ -1303,6 +1314,12 @@ img.avatar {
   float: left;
   clear: both;
 }
+.form_section_guest {
+  @extend .form_section;
+  border-bottom: 2px lightgray solid;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
 h3.form_subtitle {
   text-align: center;
   font-weight: 800;
@@ -1409,6 +1426,8 @@ select.form_select {
   margin-bottom: 20px;
   label {
     cursor: pointer;
+    display: block;
+    margin-left: 25px;
   }
 }
 input.fancy_checkbox[type="checkbox"] {

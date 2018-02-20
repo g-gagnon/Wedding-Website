@@ -1,0 +1,55 @@
+<div id="main_container">
+
+  <%= render 'layouts/menu' %>
+
+  <div class="blog_header_photo">
+    <div class="page_header_trans">
+      <div class="page_header_title">
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="page_content">
+    <div class="full_width_centered">
+      <h2><%= t('faq.name') %></h2>
+      <div class="left_full">
+        <h6><%= t('faq.question.q1') %></h6>
+        <p><%= t('faq.answer.a1_html') %></p>
+        <h6><%= t('faq.question.q2') %></h6>
+        <p><%= t('faq.answer.a2') %></p>
+        <h6><%= t('faq.question.q3') %></h6>
+        <p><%= t('faq.answer.a3') %></p>
+        <h6><%= t('faq.question.q4') %></h6>
+        <p><%= t('faq.answer.a4') %></p>
+        <h6><%= t('faq.question.q5') %></h6>
+        <p><%= t('faq.answer.a5') %></p>
+        <h6><%= t('faq.question.q6') %></h6>
+        <p><%= t('faq.answer.a6_html') %></p>
+        <h6><%= t('faq.question.q7') %></h6>
+        <p><%= t('faq.answer.a7') %></p>
+        <h6><%= t('faq.question.q8') %></h6>
+        <p><%= t('faq.answer.a8') %></p>
+        <h6><%= t('faq.question.q9') %></h6>
+        <p><%= t('faq.answer.a9_html', href: link_to(t('faq.answer.a9_href'), registry_path)) %></p>
+        <h6><%= t('faq.question.q10') %></h6>
+        <p><%= t('faq.answer.a10') %></p>
+        <h6><%= t('faq.question.q11') %></h6>
+        <p><%= t('faq.answer.a11') %></p>
+        <h6><%= t('faq.question.q12') %></h6>
+        <p><%= t('faq.answer.a12') %></p>
+
+      </div>
+
+      <div class="clear"></div>
+    </div>  <!--end of full width-->
+  </div> <!--end of about content-->
+
+  <%= render 'layouts/footer' %>
+
+</div>
+<script type="text/javascript">
+    var main_menu = new main_menu.dd("main_menu");
+    main_menu.init("main_menu", "menuhover");
+</script>
