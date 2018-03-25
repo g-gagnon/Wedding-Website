@@ -275,5 +275,5 @@ Devise.setup do |config|
   # so you need to do it manually. For the users scope, it would be:
   config.omniauth_path_prefix = '/facebook/users/auth'
   config.omniauth :facebook, Rails.application.secrets.facebook_app_id, Rails.application.secrets.facebook_app_secret,
-                  :client_options => { :ssl => { :verify => !Rails.env.development? } }
+                  :client_options => { :ssl => { :verify => false } }
 end
