@@ -275,5 +275,8 @@ Devise.setup do |config|
   # so you need to do it manually. For the users scope, it would be:
   config.omniauth_path_prefix = '/facebook/users/auth'
   config.omniauth :facebook, Rails.application.secrets.facebook_app_id, Rails.application.secrets.facebook_app_secret,
-                  :client_options => { :ssl => { :verify => false } }
+                  :client_options => {#:ssl => {:verify => false},
+                                      site: 'https://graph.facebook.com/v2.11',
+                                      authorize_url: "https://www.facebook.com/v2.11/dialog/oauth"
+                  }
 end
